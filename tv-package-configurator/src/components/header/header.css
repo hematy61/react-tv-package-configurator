@@ -1,0 +1,39 @@
+.header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: baseline;
+	margin-bottom: 2rem;
+}
+
+h1 {
+	padding-left: 1rem;
+}
+
+.nav-bar {
+	display: flex;
+	flex-direction: column;
+  justify-content: center;
+}
+.nav-bar ul {
+	display: flex;
+	list-style-type: none;
+}
+.nav-bar ul li {
+	
+}
+
+.nav-bar a:link, a:visited {
+	display: inline-block;
+	font-size: 1.2rem;
+	color: #c8c8c8;
+	padding: 1.8rem;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.nav-bar a:hover {
+	color: white;
+	background: #546E91;
+}
