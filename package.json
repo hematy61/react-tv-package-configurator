@@ -13,6 +13,6 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://hematy61.github.io/react-tv-package-configurator",
-  
+  "homepage": "https://hematy61.github.io/react-tv-package-configurator/public",
+
 }
