@@ -1,9 +1,12 @@
 .account-search {
+	min-width: 300px;
+}
+
+form {
 	display: flex;
 	flex-direction: column;
-	min-width: 300px;
-
 }
+
 .account-search h3 {
 	padding-bottom: 1.5rem;
 }
@@ -38,4 +41,8 @@
 
 input:focus {
 	background: lightblue;
+}
+input[type="submit"]{
+	width: 90%;
+	margin: 1rem;
 }
