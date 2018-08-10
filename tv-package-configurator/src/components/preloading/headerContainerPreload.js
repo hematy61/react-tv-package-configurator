@@ -14,7 +14,7 @@ export class HeaderContainerPreload extends Component {
 		if (!this.state.addedClass.includes("make-hidden")) {
 			setTimeout(()=>{
 				this.setState({addedClass: this.state.addedClass + " " + "make-hidden"});
-			}, 3000);
+			}, 1000);
 		}
 		
 		return (

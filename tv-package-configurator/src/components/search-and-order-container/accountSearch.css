@@ -1,0 +1,41 @@
+.account-search {
+	display: flex;
+	flex-direction: column;
+	min-width: 300px;
+
+}
+.account-search h3 {
+	padding-bottom: 1.5rem;
+}
+
+.cci, .phone-number {
+	padding: 0 1rem;
+}
+.cci {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 1rem;
+	align-items: center;
+}
+
+
+.phone-number {
+	display: flex;
+	justify-content: space-between;
+}
+
+.account-search input {
+	padding: .4rem .4rem .4rem .8rem;
+	font-size: .9rem;
+	background: #8EA0B7;
+	border: 0;
+	text-transform: uppercase;
+	color: #102B4F;
+	width: 7rem;
+	border-radius: 5px;
+	outline: none;
+}
+
+input:focus {
+	background: lightblue;
+}
