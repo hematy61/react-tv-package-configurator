@@ -27,7 +27,7 @@ form {
 	justify-content: space-between;
 }
 
-.account-search input {
+.account-search input[type='text'] {
 	padding: .4rem .4rem .4rem .8rem;
 	font-size: .9rem;
 	background: #8EA0B7;
@@ -39,10 +39,58 @@ form {
 	outline: none;
 }
 
-input:focus {
+input[type='text']:focus {
 	background: lightblue;
 }
-input[type="submit"]{
+.account-search input[type="submit"]{
+	width: 100%;
+	height: 100%;
+	/*margin: 1rem;*/
+	position: relative;
+	display: block;
+	top: 0;
+	left: 0;
+	font-size: .9rem;
+	background: #8EA0B7;
+	border: 0;
+	text-transform: uppercase;
+	color: #102B4F;
+	border-radius: 5px;
+}
+
+.search-shiny{
+	position: relative;
+	display: block;
 	width: 90%;
-	margin: 1rem;
+	height: 2rem;
+	overflow: hidden;
+	margin: 16px;
+}
+
+.search-shiny:hover::before {
+	position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  content: "";
+  height: 1rem;
+  width: 85%;
+  background: #ffffff51;
+  transform: rotate(-20deg);
+	animation-name: search-shine;
+  animation-duration: 2s;
+  animation-timing-function: cubic-beizer(0.17, 0.79, 0.96, 0.25);
+  animation-iteration-count: infinite;
+  z-index: 100;
+}
+
+@keyframes search-shine {
+  0% {
+    top: -30px;
+    left: -80px;
+  }
+  100% {
+    top: 50px;
+    left: 110px;
+  }
 }

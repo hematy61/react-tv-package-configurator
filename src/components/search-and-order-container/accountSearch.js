@@ -50,7 +50,9 @@ export default class AccountSearch extends Component {
 								placeholder="2042221111" 
 								onChange={this.handleChange} />
 						</div>
-						<input type="submit" value="Search" />
+						<div className='search-shiny'>
+							<input type="submit" value="Search" />
+						</div>
 					</form>
 				</div>
 			</div>
