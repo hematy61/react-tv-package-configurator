@@ -70,27 +70,33 @@ input[type='text']:focus {
 .search-shiny:hover::before {
 	position: absolute;
   display: block;
+  opacity: 0;
   top: 0;
   left: 0;
   content: "";
-  height: 1rem;
-  width: 85%;
-  background: #ffffff51;
+  height: 3rem;
+  width: 120%;
+  background: linear-gradient( 
+  	rgba(255,255,255,0) 0%,
+  	rgba(255,255,255,0.03) 1%,
+  	rgba(255,255,255,0.6) 30%,
+  	rgba(255,255,255,0.85) 50%,
+  	rgba(255,255,255,0.85) 70%,
+  	rgba(255,255,255,0.85) 71%,
+  	rgba(255,255,255,0) 100%
+  );
   transform: rotate(-20deg);
-	animation-name: search-shine;
-  animation-duration: 2s;
+	animation: search-shine 2s;
   animation-timing-function: cubic-beizer(0.17, 0.79, 0.96, 0.25);
   animation-iteration-count: infinite;
   z-index: 100;
 }
 
+
 @keyframes search-shine {
-  0% {
-    top: -30px;
-    left: -80px;
-  }
-  100% {
-    top: 50px;
-    left: 110px;
-  }
+	0%  { left: -80px; top: -30px; opacity: 0; }
+	5% {opacity: 0.3}
+	48% {opacity: 0.6}
+	80% {opacity: 0.0}
+	100% { left: 110px; top: 50px;}
 }

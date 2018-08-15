@@ -33,7 +33,7 @@ export default class OrderSummary extends Component {
 					<p>Changes</p>
 					<div className="changes-display">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur nesciunt tempore deleniti unde cum, ipsum iure aliquid soluta omnis voluptatibus, aliquam saepe quaerat, illo magnam ducimus quidem, vel eaque aspernatur!</div>
 				</div>
-				<div className="shiny">	
+				<div className="order-summary-shiny">	
 					<input  type="submit" value='checkout'/>
 				</div>
 			</form>
