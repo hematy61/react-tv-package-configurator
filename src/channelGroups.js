@@ -278,3 +278,5 @@ const groupsNames = [
 								"musique-plus", "max"]
 				},
 ];
+
+export default groupsNames;
