@@ -1,0 +1,80 @@
+.packages-section {
+	width: 100%;
+	padding: 0 1rem;
+}
+
+.packages-section h3 {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	max-width: 120px;
+}
+
+.packages {
+	width: 100%;
+}
+
+.channel-groups {
+	min-width: 320px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  line-height: 20px;
+  justify-content: center;
+}
+.group {
+	display: flex;
+	margin: 1rem 0;
+}
+
+fieldset {
+	min-width: 320px;
+	padding: 0 .3rem .5rem .2rem;
+}
+
+legend{
+	color: #a27f49;
+	font-size: 1.3rem;
+}
+
+legend input[type="checkbox"] {
+	top: 0;
+}
+
+legend p {
+	display: inline-block;
+	padding-left: 2rem;
+}
+
+.channel {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	padding-left: 1.5rem;
+}
+.channel div, .channel p {
+	display: inline-block;
+	font-weight: normal;
+}
+
+.channel-number{
+	padding-left: .4rem;
+}
+
+.channel-name-row h4 {
+	display: inline-block;
+	font-weight: normal;
+	padding: 0 .6rem 0 .6rem;
+}
+
+.long-name {
+	font-size: .95rem;
+}
+
+.hd-notice p {
+	width: 320px;
+	text-align: center;
+	padding-top: 1rem;
+	color: #a27676;
+}
+

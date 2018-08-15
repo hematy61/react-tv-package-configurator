@@ -1,6 +1,6 @@
 const groupsNames = [
 				{ name: "Adventure",
-					class: "adventure",
+					className: "adventure",
 					price: 4,
 					channels: ["Peachtree TV", "Space", "Bravo", "American Heroes Channel", "Paramount"],
 					channelsPrice: ["$5.00", "$8.00", "$8.00", "$1.99", "$2.99"],
@@ -8,7 +8,7 @@ const groupsNames = [
 					ids: ["peachtree", "space", "bravo", "american-heroes-channel", "paramount"]
 				},
 				{ name: "Cinema",
-					class: "cinema",
+					className: "cinema",
 					price: 3,
 					channels: ["CHCH", "IFC", "Documentary", "Rewind Channel", "Silver Screen Classics"],
 					channelsPrice: ["$1.99", "$1.99", "$1.99", "$1.99", "$1.99"],
@@ -16,7 +16,7 @@ const groupsNames = [
 					ids: ["chch", "ifc", "documentary", "rewindchannel", "silver-screen-classics"]
 				},
 				{ name: "Divertissement",
-					class: "divertissement",
+					className: "divertissement",
 					price: 3,
 					channels: ["LCN", "ICI ARTV", "Canal D", "Z", "Zeste", "Évasion", "ICI Explora"],
 					channelsPrice: ["$1.99", "$2.99", "$8.00", "$8.00", "$4.00", "$4.00", "$4.00"],
@@ -24,7 +24,7 @@ const groupsNames = [
 					ids: ["lcn", "ici-artv", "canal-d", "z", "zeste", "evasion", "ici-explora"]
 				},
 				{ name: "Entertainment",
-					class: "entertainment",
+					className: "entertainment",
 					price: 4,
 					channels: ["Showcase", "E!", "OWN", "The Comedy Network", "Gusto"],
 					channelsPrice: ["$1.99", "$6.00", "$4.00", "$8.00", "$6.00"],
@@ -32,7 +32,7 @@ const groupsNames = [
 					ids: ["showcase", "e!", "own", "the-comedy-network", "gusto"]
 				},
 				{ name: "Explore",
-					class: "explore",
+					className: "explore",
 					price: 4,
 					channels: ["National Geographic Channel", "Discovery Science", "DIY Network", "Nat Geo Wild", "Investigation Discovery"],
 					channelsPrice: ["$1.99", "$1.99", "$1.99", "$1.99", "$1.99"],
@@ -40,7 +40,7 @@ const groupsNames = [
 					ids: ["national-geographic-channel", "discovery-science", "diy-network", "nat-geo-wild", "investigation-discovery"]
 				},
 				{ name: "Famille",
-					class: "famille",
+					className: "famille",
 					price: 4,
 					channels: ["VRAK", "Télé-Québec", "Télétoon", "RDS Info", "addikTV", "Series+"],
 					channelsPrice: ["$8.00", "$1.99", "$1.99", "$1.99", "$2.99", "$1.99"],
@@ -48,7 +48,7 @@ const groupsNames = [
 					ids: ["vrak", "Tele-quebec", "teletoon", "rds-info", "addiktv", "series+"]
 				},
 				{ name: "Family",
-					class: "family",
+					className: "family",
 					price: 5,
 					channels: ["Disney Channel", "TELETOON", "Family Channel", "Treehouse", "Disney Junior", "Cartoon Network", "Family Jr.", "CHRGD", "Disney XD"],
 					channelsPrice: ["$2.99", "$4.00", "$2.99", "$4.00", "$2.99", "$4.00", "$2.99", "$2.99", "$2.99"],
@@ -56,7 +56,7 @@ const groupsNames = [
 					ids: ["Disney Channel", "TELETOON", "Family Channel", "Treehouse", "Disney Junior", "Cartoon Network", "Family Jr.", "CHRGD", "Disney XD"]
 				},
 				{ name: "HD Discoery",
-					class: "hd-discoery",
+					className: "hd-discoery",
 					price: 4,
 					channels: ["Wild TV HD", "Discovery Velocity HD"],
 					channelsPrice: ["$1.99", "$8.00"],
@@ -64,7 +64,7 @@ const groupsNames = [
 					ids: ["wild-tv-hd", "discovery-velocity-hd"]
 				},
 				{ name: "HD HiFi",
-					class: "hd-hifi",
+					className: "hd-hifi",
 					price: 5,
 					channels: ["Smithsonian Channel", "Love Nature", "HIFI", "BBC Earth"],
 					channelsPrice: ["$1.99", "$1.99", "$1.99", "$1.99"],
@@ -72,7 +72,7 @@ const groupsNames = [
 					ids: ["smithsonian-channel", "love-nature", "hifi", "bbc-earth"]
 				},
 				{ name: "HD Hollywood Suite",
-					class: "hd-hollywood-suite",
+					className: "hd-hollywood-suite",
 					price: 5,
 					channels: ["Hollywood Suite 70s Movies", "Hollywood Suite 80s Movies", "Hollywood Suite 90s Movies", "Hollywood Suite 00s Movies"],
 					channelsPrice: ["$2.50", "$2.50", "$2.50", "$2.50"],
@@ -80,7 +80,7 @@ const groupsNames = [
 					ids: ["hollywood-suite-70s-movies", "hollywood-suite-80s-movies", "hollywood-suite-90s-movies", "hollywood-suite-00s-movies"]
 				},
 				{ name: "Information",
-					class: "information",
+					className: "information",
 					price: 3,
 					channels: ["CP24", "TVO"],
 					channelsPrice: ["$8.00", "$1.99"],
@@ -88,7 +88,7 @@ const groupsNames = [
 					ids: ["cp24", "tvo"]
 				},
 				{ name: "Jeunesse",
-					class: "jeunesse",
+					className: "jeunesse",
 					price: 3,
 					channels: ["Télémagino", "BabyTV (French)", "La Chaîne Disney"],
 					channelsPrice: ["$2.99", "$1.99", "$1.99"],
@@ -96,7 +96,7 @@ const groupsNames = [
 					ids: ["telemagino", "babytv-french", "la-chaine-disney"]
 				},
 				{ name: "Kids Plus",
-					class: "kids-plus",
+					className: "kids-plus",
 					price: 3,
 					channels: ["Animal Planet", "BBC Kids", "Nickelodeon", "BabyTV"],
 					channelsPrice: ["$4.00"],
@@ -104,7 +104,7 @@ const groupsNames = [
 					ids: ["animal-planet", "bbc-kids", "nickelodeon", "babytv"]
 				},
 				{ name: "Life",
-					class: "life",
+					className: "life",
 					price: 5,
 					channels: ["Slice", "W Network", "HGTV", "Food Network", "CosmoTV"],
 					channelsPrice: ["$1.99", "$4.00", "$1.99", "$1.99", "$1.99"],
@@ -112,7 +112,7 @@ const groupsNames = [
 					ids: ["slice", "w-network", "hgtv", "food-network", "cosmotv"]
 				},
 				{ name: "Lifestyle",
-					class: "lifestyle",
+					className: "lifestyle",
 					price: 3,
 					channels: ["FYI", "Fashion Television Channel", "ONE", "OUTtv"],
 					channelsPrice: ["$1.99", "$1.99", "$1.99", "$1.99"],
@@ -120,7 +120,7 @@ const groupsNames = [
 					ids: ["FYI", "fashion-television-channel", "one", "outtv"]
 				},
 				{ name: "Medley",
-					class: "medley",
+					className: "medley",
 					price: 3,
 					channels: ["BET", "A.Side TV", "Makeful", "MTV2", "MTV"],
 					channelsPrice: ["$2.99", "$1.99", "$1.99", "$1.99", "$6.00"],
@@ -128,7 +128,7 @@ const groupsNames = [
 					ids: ["bet", "a-side-tv", "makeful", "mtv2", "mtv"]
 				},
 				{ name: "Movie Flicks",
-					class: "movie-flicks",
+					className: "movie-flicks",
 					price: 4,
 					channels: ["WGN Chicago", "Action", "Lifetime", "AMC", "Turner Classic Movies"],
 					channelsPrice: [" ", "$1.99", "$1.99", "$7.00", "$6.00"],
@@ -136,7 +136,7 @@ const groupsNames = [
 					ids: ["wgn-chicago", "action", "lifetime", "amc", "turner-classic-movies"]
 				},
 				{ name: "Movie Picks",
-					class: "movie-picks",
+					className: "movie-picks",
 					price: 4,
 					channels: ["MovieTime", "DejaView", "ABC Spark", "Cooking Channel", "FX"],
 					channelsPrice: ["$1.99", "$1.99", "$1.99", "$1.99", "$1.99"],
@@ -144,7 +144,7 @@ const groupsNames = [
 					ids: ["movietime", "dejaview", "abc-spark", "cooking-channel", "fx"]
 				},
 				{ name: "Music",
-					class: "music",
+					className: "music",
 					price: 3,
 					channels: ["Stingray Vibe", "Stingray Loud", "Stingray Retro", "Stingray Juicebox"],
 					channelsPrice: ["$1.99", "$1.99", "$1.99", "$1.99"],
@@ -152,7 +152,7 @@ const groupsNames = [
 					ids: ["stingray-vibe", "stingray-loud", "stingray-retro", "stingray-juicebox"]
 				},
 				{ name: "News",
-					class: "news",
+					className: "news",
 					price: 4,
 					channels: ["CTV News Channel", "BNN Bloomberg", "CNBC", "Fox News", "MSNBC"],
 					channelsPrice: ["$2.80", "$6.00", "$4.00", "$1.99", "$4.00"],
@@ -160,7 +160,7 @@ const groupsNames = [
 					ids: ["ctv-news-channel", "bnn-bloomberg", "cnbc", "fox-news", "msnbc"]
 				},
 				{ name: "Places",
-					class: "places",
+					className: "places",
 					price: 3,
 					channels: ["BBC World News", "Travel + Escape", "Cottage Life", "BBC Canada", "BookTelevision"],
 					channelsPrice: ["$1.99", "$1.99", "$1.99", "$1.99", "$1.99"],
@@ -168,7 +168,7 @@ const groupsNames = [
 					ids: ["bbc-world-news", "travel+escape", "cottage-life", "bbc-canada", "booktelevision"]
 				},
 				{ name: "PrimeTime 1",
-					class: "primetime-1",
+					className: "primetime-1",
 					price: 6,
 					channels: ["A&E", "TLC", "CNN", "Discovery", "Headline News"],
 					channelsPrice: ["$2.99", "$4.00", "$7.00", "$8.00", "$3.00"],
@@ -176,7 +176,7 @@ const groupsNames = [
 					ids: ["a&e", "tlc", "cnn", "discovery", "headline-news"]
 				},
 				{ name: "PrimeTime 2",
-					class: "primetime-2",
+					className: "primetime-2",
 					price: 4,
 					channels: ["History", "DTOUR", "GSN", "CMT","NASA TV"],
 					channelsPrice: ["$1.99", "$1.99", "$2.99", "$4.00", "$1.99"],
@@ -184,7 +184,7 @@ const groupsNames = [
 					ids: ["history", "dtour", "gsn", "cmt","nasa-tv"]
 				},
 				{ name: "Replay",
-					class: "replay",
+					className: "replay",
 					price: 3,
 					channels: ["Comedy Gold", "H2", "Crime + Investigation", "TLN"],
 					channelsPrice: ["$1.99", "$1.99", "$1.99", "$4.00"],
@@ -192,7 +192,7 @@ const groupsNames = [
 					ids: ["comedy-gold", "h2", "crime+investigation", "tln"]
 				},
 				{ name: "Sport Champions",
-					class: "sport-champions",
+					className: "sport-champions",
 					price: 3,
 					channels: ["RDS", "NBA TV Canada", "EuroWorld Sport", "TVA Sports"],
 					channelsPrice: ["$6.00", "$1.99", "$4.00", "$1.99"],
@@ -200,7 +200,7 @@ const groupsNames = [
 					ids: ["rds", "nba-tv-canada", "euroworld-sport", "tva-sports"]
 				},
 				{ name: "Sports Enthusiasts",
-					class: "sports-enthusiasts",
+					className: "sports-enthusiasts",
 					price: 3,
 					channels: ["World Fishing Network", "Wild TV", "ESPN Classic"],
 					channelsPrice: ["$1.99", "$1.99", "$1.99"],
@@ -208,7 +208,7 @@ const groupsNames = [
 					ids: ["world-fishing-network", "wild-tv", "espn-classic"]
 				},
 				{ name: "Sports Fans",
-					class: "sports-fans",
+					className: "sports-fans",
 					price: 15,
 					channels: ["Fight Network", "Sportsnet - Sportsnet 4K also available",
 										 "FOX Sports Racing", "OLN", "NFL Network", 
@@ -223,7 +223,7 @@ const groupsNames = [
 								"golf-channel", "sportsnet-one", "mlb-network"]
 				},
 				{ name: "Super",
-					class: "super",
+					className: "super",
 					price: 4,
 					channels: ["myTV38 Boston", "WGN Chicago", "PIX New York", "KTLA Los Angeles"],
 					channelsPrice: ["$1.99", "$1.99", "$1.99", "$1.99"],
@@ -231,7 +231,7 @@ const groupsNames = [
 					ids: ["mytv38-boston", "wgn-chicago", "pix-new-york", "ktla-los-angeles"]
 				},
 				{ name: "Time Shift East",
-					class: "time-shift-east",
+					className: "time-shift-east",
 					price: 3,
 					channels: ["CBC Toronto", "City Toronto", "Global Toronto", "CTV Montreal",
 										 "NTV St. John's", "Global Maritimes", "PBS Detroit", "CTV Halifax", 
@@ -250,7 +250,7 @@ const groupsNames = [
 								"ctv-sydney"]
 				},
 				{ name: "Time Shift West",
-					class: "time-shift-west",
+					className: "time-shift-west",
 					price: 3,
 					channels: ["City Saskatchewan", "CBC Vancouver", "CTV BC", "Global BC", 
 										 "City Edmonton", "City Vancouver", "ABC Seattle", "CBS Seattle", 
@@ -267,7 +267,7 @@ const groupsNames = [
 							  "ctv-regina"]
 				},
 				{ name: "Variété",
-					class: "variete",
+					className: "variete",
 					price: 3,
 					channels: ["Historia", "Prise 2", "CASA", "euronews (French)", 
 										 "Investigation", "MusiquePlus", "Max"],
