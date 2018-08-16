@@ -23,13 +23,13 @@ padding:0 1rem 0 1rem;
 .order-summary input {
 	position: absolute;
 	display: block;
-	padding: .4rem;
 	font-size: .9rem;
 	background: #8EA0B7;
 	border: 0;
 	text-transform: uppercase;
 	color: #102B4F;
 	width: 7rem;
+	height: 1.9rem;
 	border-radius: 5px;
 	text-align: center;
 	top: 0;
@@ -40,12 +40,11 @@ padding:0 1rem 0 1rem;
 .order-summary-shiny{
 	display: block;
 	position: relative;
-	width: 6.2rem;
-	height: 1.1rem;
+	width: 7rem;
+	height: 1.9rem;
 	overflow: hidden;
-	top: 10px;
+	top: 0px;
 	margin: 16px;
-	padding: .4rem;
 }
 
 .order-summary-shiny:hover::before {
