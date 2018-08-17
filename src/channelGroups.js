@@ -100,7 +100,7 @@ const groupsNames = [
 					price: 3,
 					channels: ["Animal Planet", "BBC Kids", "Nickelodeon", "BabyTV"],
 					channelsPrice: ["$4.00"],
-					channelsNumber: [138],
+					channelsNumber: [251, 252, 253, 256],
 					ids: ["animal-planet", "bbc-kids", "nickelodeon", "babytv"]
 				},
 				{ name: "Life",
