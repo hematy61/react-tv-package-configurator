@@ -1,7 +1,11 @@
 .search-and-order-container {
 	display: flex;
-	/*justify-content: space-between;*/
-	/*flex-wrap: wrap;*/
 	padding-left: 1rem;
 	width: 100%;
+}
+
+@media (max-width: 768px) {
+  .search-and-order-container {
+    flex-wrap: wrap;  
+  }
 }

@@ -81,3 +81,9 @@ padding:0 1rem 0 1rem;
 	100% { left: 60px; top: 50px;}
 }
 
+@media (max-width: 768px) {
+  .order-summary {
+  	width: 100%;
+  	margin: 2rem 0;
+  }
+}

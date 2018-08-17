@@ -38,3 +38,39 @@ h1 {
 	color: white;
 	background: #546E91;
 }
+
+@media (max-width: 960px) {
+  .header {
+    margin-top: 2rem;
+  }
+  .nav-bar, .header h1 {
+    width: 100%;
+  }
+  .header h1 {
+    text-align: center;
+  }
+  .nav-bar ul {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 550px) {
+  .nav-bar a:link {
+  	font-size: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .header h1 {
+  	font-size: 1.5rem;
+  }
+  .nav-bar ul {
+  	flex-direction: column;
+  	align-items: center;
+  	margin-top: 1rem;
+  }
+  .nav-bar a:link {
+  	font-size: 1rem;
+  	padding: .7rem;
+  }
+}
