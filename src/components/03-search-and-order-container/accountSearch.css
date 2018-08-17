@@ -100,3 +100,9 @@ input[type='text']:focus {
 	80% {opacity: 0.0}
 	100% { left: 110px; top: 50px;}
 }
+
+@media Print {
+  .account-search {
+    display: none;
+  }
+}
